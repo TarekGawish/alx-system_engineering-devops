@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+
+echo "Listing all environment variables:"
+
+
+
+for var in "${!__@}"
+
+do
+
+    echo "$var = ${!var}"
+
+done
